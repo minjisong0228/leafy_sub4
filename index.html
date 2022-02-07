@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=1350">
+    <title>LEAFY 자연주의코스메틱</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+		<script src="script1.js"></script>
+    <link href="images/favico.png" rel="icon" type="image/png" sizes="32x32" >
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+    <script src="jquery-3.5.1.min.js"></script>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="nav">
+        <div class="nav_inner"> 
+           <ul class="navlogo">
+                  <li><a href="#"><img src="images/logo.png" alt="logo"></a></li>
+           </ul>
+           <ul class="navmenu">
+                  <li><a href="#">BRAND</a></li>
+                  <li><a href="#">SHOP</a></li>
+                  <li><a href="#">COMMUNITY</a></li>
+                  <li><a href="#">EVENT</a></li>
+           </ul> 
+        </div><!--nav_inner E-->
+    </div><!--nav E-->
+     <div class="mainbanner">
+       <img src="images/sub4_mainphoto.jpg" alt="#">
+     </div><!--mainbanner E-->
+
+  <div class="EVENT">
+      <p class="subtitle" id="celeb">EVENT</p>
+
+      <div class="eventmenu">
+          <ul>
+            <li><a href="#celeb">당첨자안내</a></li>
+            <li><a href="#event_ing">진행중 이벤트</a></li>
+            <li><a href="#event_end">종료된 이벤트</a></li>
+          </ul>
+      </div>
+
+
+    <div class="celeb">
+        <p>축하드립니다 <em>!</em></p>
+        <p>블랙티 유스 인핸싱 스페셜 케어 4종 세트 체험단 당첨자 안내</p>
+        <p>이벤트에 참여해 주신 분들께 감사드리며, 앞으로도 많은 참여와 관심 부탁드립니다.</p>
+        <p id="event_ing">serth***   cat6***   sonse***   eun960***    hanjihye3***   cnlgoq***   oo0sexy***   sseul0***   yyang0***   opp6***   saen***<br>
+          rookieee***   9105***   diana200***   khyh***   luxury1***   dusl2***   ssoeu***   firstki***    ocrazyfi***   alooh***   jisay3***</p>
+    </div>
+
+    <div class="event_ing">
+    <p class="ing">진행중 이벤트</p>
+      <ul>
+        <li><a href="#"><img src="images/sub4_banner1.jpg" alt="#"></a></li>
+        <li><a href="#"><img src="images/sub4_banner2.jpg" alt="#"></a></li>
+        <li><a href="#"><img src="images/sub4_banner3.jpg" alt="#"></a></li>
+        <li><a href="#"><img src="images/sub4_banner4.jpg" alt="#"></a></li>
+        <li><a href="#"><img src="images/sub4_banner5.jpg" alt="#"></a></li>
+        <li><a href="#"><img src="images/sub4_banner6.jpg" alt="#"></a></li>
+      </ul>
+    </div>
+
+    <div class="event_end" id="event_end">
+      <p class="ing">종료된 이벤트</p>
+        <ul>
+          <li><a href="#"></a><img src="images/sub4_banner_end1.jpg" alt="#"></a></li>
+          <li><a href="#"></a><img src="images/sub4_banner_end2.jpg" alt="#"></a></li>
+        </ul>
+      </div>
+    </div> <!--EVENT E-->
+
+    <div class="footer">
+      <div class="footer_inner">
+         <ul class="box1">
+           <li><p>CUSTOMER CENTER</p></li>
+           <li><p>1577-4406</p></li>
+           <li><p>평일업무 10:00 am - 5:00 pm<br>
+            점심시간 12:00 pm - 1:00 pm<br>
+            SAT.SUN.HOLIDAY OFF</p></li>
+         </ul>
+         <ul class="box2">
+          <li><p>BANKING ACCOUNT</p></li>
+          <li><p>예금주:(주)리피</p></li>
+          <li><p>기업: 461-64-15640-19</p></li>
+        </ul>
+         <ul class="box3">
+          <li><p>COMPANY INFO</p></li>
+          <li><p>상호: (주)리피  I  대표: 송민지<br>
+            사업자 등록번호: 715-75-01965  I  통신판매업 신고: 2021-서울강서-1955<br>
+            주소: 서울특별시 강서구 화남대로 124-2 빌딩 7F  I  개인정보관리 책임자: 송민지<br>
+            고객센터: 1577-4406  I  이메일: INFO@LEAFYKOREA.COM</p></li>
+        </ul>
+      </div><!--footer_inner E-->
+
+      <div class="copyright">
+        <div class="copyright_inner">
+        <p>COPYRIGHT ⓒ  (주)리피.  All Rights Reserved.</p>
+      </div><!--copyright_inner E-->
+      </div><!--copyright E-->      
+   </div><!--footer E-->
+
+   <script>
+		AOS.init()
+	</script>
+
+<script>
+  var swiper = new Swiper(".mb", {
+  navigation: {
+     nextEl: ".swiper-button-next",
+     prevEl: ".swiper-button-prev",
+    },
+  pagination: {
+    el: ".swiper-pagination",
+    clickable: true,
+    },
+  autoplay: {
+    delay: 5000,
+    disableOnInteraction: false,
+  },
+  loop: true,/*4번째 이미지에서 다음 키를 누르면 바로 첫번째 이미지가 나오게 한다*/
+  });
+  
+  /*".card" 부분의 class이름은, swiper클래스가 지정된 박스에 각각의 이름을 붙여 옵션을 각기 다르게 지정한다.(먼저 swiper옆에 클래스를 지정한뒤 해당 클래스를 넣어주세요)*/
+  var swiper = new Swiper(".card4", {
+  navigation: {
+     nextEl: ".swiper-button-next",
+     prevEl: ".swiper-button-prev",
+    },
+  pagination: {
+    el: ".swiper-pagination",
+    clickable: true,
+    },
+  autoplay: {
+    delay: 5000,
+    disableOnInteraction: false,
+  },
+  loop: true,/*4번째 이미지에서 다음 키를 누르면 바로 첫번째 이미지가 나오게 한다*/
+  slidesPerView: 4,/*한번에 보이는 slide개수 설정*/
+  spaceBetween: 30,/*슬라이드 사이의 공간 설정*/
+  slidesPerGroup: 4,/*한번에 넘어가는 slide의 개수 설정. 모든이미지갯수를 그룹으로 만들면 도트가 안나타날 수 있습니다!*/
+  });
+  
+  /*화살표 영역을 밖으로 빼고싶을 때. navigation부분 확인합니다! 다른건 동일*/
+  var swiper = new Swiper(".card4_out", {
+  navigation: {
+     nextEl: ".card4_out_next",
+     prevEl: ".card4_out_prev",
+    },
+  pagination: {
+    el: ".swiper-pagination",
+    clickable: true,
+    },
+  autoplay: {
+    delay: 5000,
+    disableOnInteraction: false,
+  },
+  loop: true,/*4번째 이미지에서 다음 키를 누르면 바로 첫번째 이미지가 나오게 한다*/
+  slidesPerView: 3,/*한번에 보이는 slide개수 설정*/
+  spaceBetween: 30,/*슬라이드 사이의 공간 설정*/
+  });
+  
+  /*화살표 영역을 밖으로 빼고싶을 때 + 이미지로 변경.*/
+  var swiper = new Swiper(".card4_img", {
+  navigation: {
+     nextEl: ".card4_img_next",
+     prevEl: ".card4_img_prev",
+    },
+  pagination: {
+    el: ".swiper-pagination",
+    clickable: true,
+    },
+  autoplay: {
+    delay: 5000,
+    disableOnInteraction: false,
+  },
+  loop: true,/*4번째 이미지에서 다음 키를 누르면 바로 첫번째 이미지가 나오게 한다*/
+  slidesPerView: 3,/*한번에 보이는 slide개수 설정*/
+  spaceBetween: 30,/*슬라이드 사이의 공간 설정*/
+  });
+</script>
+
+<script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+<script type="text/javascript">
+  $(document).ready(function() {
+
+    //처음들어갔을때 모습 만들기...
+    $(".tab_content").hide(); //tab_content 부분을 모두 숨김.
+    $("ul.tabs li:first").addClass("active").show(); //첫번째 탭이 active클래스를 붙이고, 보여줌.
+    $(".tab_content:first").show(); //tab_contents중 첫번째꺼를 보여줌
+
+    //On Click Event
+    $("ul.tabs li").click(function() {
+
+      $("ul.tabs li").removeClass("active"); //Remove any "active" class
+      $(this).addClass("active"); //선택한 탭에만 active클래스 붙임
+      $(".tab_content").fadeOut(); //모든 contents들 숨김
+
+      var activeTab = $(this).find("a").attr("href"); //Find the href attribute value to identify the active tab + content
+      /*.attr( attributeName ) -> 선택한 요소의 속성의 값을 가져옵니다.
+      .find()는 어떤 요소의 하위 요소 중 특정 요소를 찾을 때 사용합니다.
+      아이디 값을 찾아서 넣는거 같다.*/
+      $(activeTab).fadeIn(); //Fade in the active ID content(active되어있는 칸의 id 값을 가진 부분이 나타남)
+      return false;
+    });
+
+  });
+</script>
+</body>
+</html>
+
+
